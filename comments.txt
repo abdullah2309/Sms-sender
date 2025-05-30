@@ -1,0 +1,21 @@
+adb kill-server
+adb start-server
+adb devices
+npm start
+
+
+
+
+
+
+
+
+
+
+
+
+adb shell pm list packages
+adb shell pm list packages > packages.txt
+notepad packages.txt
+
+adb shell cmd package resolve-activity --brief com.google.android.apps.messaging

@@ -1,0 +1,16 @@
+{
+  "name": "sms-sender",
+  "version": "1.0.0",
+  "description": "Send SMS using ADB and Excel list",
+  "main": "src/sendSms.js",
+  "scripts": {
+    "start": "node src/sendSms.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
