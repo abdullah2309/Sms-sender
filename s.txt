@@ -11,7 +11,7 @@ const filePath = path.join(__dirname, '../data/sms_list.xlsx');
 const workbook = XLSX.readFile(filePath);
 const sheet = workbook.Sheets[workbook.SheetNames[0]];
 const data = XLSX.utils.sheet_to_json(sheet);
-
+ 
 const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 // Get default SMS package name
