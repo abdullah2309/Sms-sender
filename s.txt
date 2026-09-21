@@ -22,7 +22,7 @@ const getDefaultSmsPackage = () => {
       .trim();
   } catch (e) {
     console.error('❌ Failed to get default SMS app. Using fallback.');
-    return 'com.android.messaging'; // Fallback for most devices
+    return 'com.android.messaging'; // Fallback for most devices 
   }
 };
 
