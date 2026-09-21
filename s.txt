@@ -169,4 +169,4 @@ const sendLocation = async (lat, lon, phone) => {
   console.log('\n✅ All messages processed!');
 })();
 
---Abdullah
+-- Abdullah --
